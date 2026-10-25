@@ -1,0 +1,12 @@
+# Python 3.11+ (developed and tested on Python 3.13.15)
+
+# PDF evidence text extraction
+pymupdf==1.28.2
+
+# Screenshot OCR (local, CPU, no network or API key). Required to reproduce the
+# submitted output.csv: without it the 11 PNG screenshots are reported as
+# unsupported evidence and 10 eval cases change.
+rapidocr_onnxruntime==1.2.3
+
+# Tests
+pytest==8.4.2
